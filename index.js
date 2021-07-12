@@ -1,4 +1,11 @@
 
+// Alert For Player Names.
+
+
+var playerOne = prompt("Who Is The First Player?");
+var playerTwo = prompt("Who Is The Second Player?");
+
+
 // Random Number Generator For The First Die.
 
 
@@ -51,9 +58,9 @@ if (randomNumTwo === 1) {
 
 
 if (randomNumOne > randomNumTwo){
-    document.querySelector(".container h1").innerHTML = "Player1 Wins &#128513"
+    document.querySelector(".container h1").innerHTML = playerOne + " Wins &#128513"
 } else if (randomNumOne < randomNumTwo){
-    document.querySelector(".container h1").innerHTML = "Player2 Wins &#128513"
+    document.querySelector(".container h1").innerHTML = playerTwo + " Wins &#128513"
 } else if (randomNumOne === randomNumTwo){
     document.querySelector(".container h1").innerHTML = "&#128517 Its A Draw!"
 }

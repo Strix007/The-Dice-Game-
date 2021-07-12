@@ -12,6 +12,7 @@
 
 body {
   background-color: #393E46;
+  margin: 0;
 }
 
 h1 {
@@ -32,14 +33,35 @@ img {
   width: 80%;
 }
 
-footer {
-  margin-top: 5%;
+.credits {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
 }
 
-.button {
+.me-text:hover {
+  color: #9c060c;
+  transition-duration: 0.3s;
+}
+
+.me {
+  text-decoration: none;
+}
+
+.refresh {
+  color: #EEEEEE;
+  display: inline-block;
+  margin: 5% 0 3% 0;
+  font-size: 25px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+  background-color: #4ECCA3;
+  padding: 10px 24px;
+  border-radius: 100px;
+  text-decoration: none;
+} 
+.refresh:hover {
+  background-color: #9c060c;
+  transition-duration: 0.3s;
 }
