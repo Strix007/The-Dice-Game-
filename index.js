@@ -79,8 +79,18 @@ function randomDice(){
     }
 }
 randomDice();
+
+
+// Button To Re-Roll The Dice.
+
+
 document.querySelector(".buttonOne").addEventListener("click", randomDice);
 function reloadPage(){
     location.reload();
 }
+
+
+// Button To Reload The Page.
+
+
 document.querySelector(".buttonTwo").addEventListener("click", reloadPage);
