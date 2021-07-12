@@ -6,6 +6,13 @@ var playerOne = prompt("Who Is The First Player?");
 var playerTwo = prompt("Who Is The Second Player?");
 
 
+// Name The Players Using The Prompts In The Paragraphs
+
+
+document.querySelector(".p1").textContent = playerOne;
+document.querySelector(".p2").textContent = playerTwo;
+
+
 // A Function Which Rolls The Dice. 
 
 
